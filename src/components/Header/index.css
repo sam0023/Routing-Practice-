@@ -1,0 +1,48 @@
+/* Write your CSS code here */
+.flex {
+  display: flex;
+  color: #6d396b;
+  justify-content: space-between;
+  align-items: center;
+  color: #555555;
+  font-family: 'Roboto';
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-img {
+  height: 50px;
+  margin: 20px;
+}
+.sections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  text-decoration: none;
+
+  margin: 20px;
+}
+.section-btn {
+  border-style: none;
+  color: #555555;
+  font-family: 'Roboto';
+  background-color: transparent;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.section-btn:hover {
+  transform: scale(1.1);
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: solid 1px red; */
+  padding: 60px;
+}
